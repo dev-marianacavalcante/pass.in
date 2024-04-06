@@ -6,3 +6,13 @@ Content-Type: application/json
     "details": "Um evento para quem e apaixonado por progrmacao",
     "maximumAttendees": 100
 }
+
+###
+POST http://localhost:3333/events/b98e8138-79ce-4950-9179-278bb4aaf788/attendees
+Content-Type: application/json
+
+
+{
+    "name": "Mariana Cavalcante",
+    "email": "mariana.cavalcantevl@gmail.com"
+}
