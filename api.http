@@ -16,3 +16,9 @@ Content-Type: application/json
     "name": "Marcos v",
     "email": "marcos@gmail.com"
 }
+
+###
+GET http://localhost:3333/events/7b89f110-8dda-4c33-8f6c-60f00fe2f36a
+
+###
+GET http://localhost:3333/attendees/1/badge
